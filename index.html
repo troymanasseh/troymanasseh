@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="door.css">
+	<link rel="stylesheet" type="text/css" href="roof.css">
 </head>
 <body>
  <div class="container">
@@ -39,7 +39,7 @@ If you would like to search for additional land registration records on Teranet 
 
     <div id="apply" class="apply">
     	<div class="Form">
-    	<form method="post" action="insert.php">
+    	<form method="post" action="connect.php">
         <b><br><u><center><b><marquee scrollamount=15>APPLICATION FOR OFFICIAL LAND SEARCH</marquee></b></center></u><br>
           TITLE NO:<input type="number" name="titleDeedNo" placeholder="title deed"><br><br>
           TO THE LAND REGISTRAR,<input type="text" name="district" placeholder="district"> DISTRICT LAND REGISTRY<br><br>
@@ -49,8 +49,16 @@ If you would like to search for additional land registration records on Teranet 
           EMAIL ADDRESS:<input type="text" name="email" placeholder="email"><br><br>
           TELEPHONE:<input type="number" name="telephone">   CELLPHONE:<input type="number" name="cellphone"><br><br>
           PURPOSE OF SEARCH:
-          <textarea name="purpose"cols=65 row=30 placeholder="purpose"></textarea><br><br>
-          <input type="SUBMIT" name="submit">
+          <select name="purpose">
+            <option value="confirm ownership">confirm ownership</option>
+            <option value="confirm whether there any liabilities">confirm whether there any liabilities</option>
+            <option value="confirm whether there any liabilities">confirm land tenure status</option>
+            <option value="check if there any restrictions">check if there any restrictions</option>
+            <option value="to peek any possibility of dispute caution">to peek any possibility of dispute caution</option>
+
+          </select>
+          <br><br>
+          <input type="SUBMIT" value="SUBMIT" name="SUBMIT">
 
     	</b></form>
     </div>

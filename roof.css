@@ -1,0 +1,132 @@
+.container{
+width:100%;
+height:800%;
+}
+.nav{
+	width:98.8%;
+	height:14%;
+	position:fixed;
+	background-image:radial-gradient(orange,yellow,chocolate);
+	border-radius:12px;
+}
+.nav ul{
+    margin-left:650px;
+}
+.nav ul li{
+	list-style:none;
+	margin-top:px;
+	font-size:30px;
+	float: left;
+}
+.nav ul li a{
+	text-decoration:none;
+	text-align:center;
+	padding:20px;
+	float:left;
+}
+.nav ul li a:hover{
+	background-color:silver;
+}
+.host{
+	float:left;
+	width:84%;
+	height:800px;
+	margin-left:8%;
+	padding-top:10%;
+	background-image:url(images/unman1.jpg);
+	background-repeat:no-repeat;
+
+}	
+.serve{
+	float:left;
+	width:84%;
+	height:800px;
+	margin-left:8%;
+	background-image:url(images/unfun.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.apply{
+	float:left;
+	width:84%;
+	height:800px;
+	margin-left:8%;
+	padding-top:10%;
+	background-image:url(images/unfun1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.contact{
+	float:left;
+	width:84%;
+	height:800px;
+	margin-left:8%;
+	padding-top:10%;
+	background-image:url(images/unman2.jpg);
+	background-repeat:none;
+	background-size:cover;
+}
+#image{
+	float: left;
+	width:200px;
+	height:100px;
+	margin-top:%;
+	margin-left:1%;
+	background-color:black;
+}
+
+#image img{
+    width:500px;
+    height:360px;
+}
+.image1{
+	float: left;
+	width:500px;
+	height:360px;
+	margin-top:1%;
+	margin-left:56%;
+	background-color:black;
+}
+
+.image1 img{
+    width:500px;
+    height:360px;
+}
+.image2{
+	clear:both;
+	float: left;
+	width:500px;
+	height:360px;
+	margin-top:5%;
+	margin-left:56%;
+	background-color:black;
+}
+
+.image2 img{
+    width:500px;
+    height:360px;
+}
+.Form{
+	width:85%;
+	height:800px;
+	margin-left:7%;
+	margin-top:1%;
+	font-size:30px;
+  background-image: radial-gradient(yellow,chocolate,orange,brown,maroon);
+  border-radius:3%;
+}
+.footer{
+	width:84%;
+	margin-left:8%;
+	height:100px;
+	text-align: center;
+	float: left;
+	color:white;
+	background-color:black;
+	font-size:25px;
+}
+.p1{
+	margin-left:1%; 
+	float: left;
+	font-size:25px;
+}
